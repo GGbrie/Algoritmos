@@ -1,0 +1,41 @@
+1. Algoritmo de números primos. 
+
+Algoritmo numero_primo
+	Definir a,n,contador1 Como Entero
+	Escribir "Ingrese un numero el cual quieras saber si es primo o no "
+	Leer n
+	a = 1
+	contador1 = 0 
+	
+	Mientras a <= n Hacer
+		Si n mod a == 0 Entonces
+			contador1 = contador1 + 1 
+		FinSi
+		a = a + 1 
+	FinMientras
+	
+	Si contador1 == 2 Entonces
+		Escribir "El Número ",n," si es primo" 
+	SiNo
+		Escribir "El Número ",n," no es un número primo" 
+	FinSi
+FinAlgoritmo
+
+
+
+
+2. Algoritmo para saber si el año sera bisiesto. 
+
+Algoritmo año_bisiesto
+	
+	Definir años Como Entero
+	Escribir "Ingresa el año que quieras saber si sera bisiesto o no. "
+	Leer años
+	
+	Si años mod 4 == 0 Entonces
+		Escribir "El año ---",años,"--- que ingreso si sera bisiesto."
+		
+	SiNo
+		Escribir "El año ---",años,"--- no sera bisiesto."
+	FinSi
+FinAlgoritmo
